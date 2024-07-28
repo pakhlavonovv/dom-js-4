@@ -1,4 +1,4 @@
-// Task 1
+// Task 82
 
 // function findNumbers(obj) {
 //     let arr = [{ value: obj, step: 1}]
@@ -31,7 +31,7 @@
 // };
 // console.log(findNumbers(obj)); // Output: [1, 2, 3, 4]
 
-// Task 2
+// Task 86
 
 // function separateEvenOdd(arr) {
 //     let evens = []
@@ -49,7 +49,7 @@
 //  // Test case
 //  console.log(separateEvenOdd([1, 2, 3, 4, 5, 6, 7, 8, 9])); // Output: { even: [2, 4, 6, 8], odd: [1, 3, 5, 7, 9] }
 
-// Task 3
+// Task 87
 
 // function isPrime(num) {
 //     if (num <= 1) return false; 
@@ -75,7 +75,7 @@
 // // Test case
 // console.log(findPrimeNumbers([2, 3, 4, 5, 6, 7])); // Output: [2, 3, 5, 7]
 
-// Task 4
+// Task 88
 
 // function rotateArray(arr, k) {
 //     k = k % arr.length; 
@@ -85,7 +85,7 @@
 // // Test case
 // console.log(rotateArray([1, 2, 3, 4, 5], 2)); // Output: [4, 5, 1, 2, 3]
 
-// Task 5
+// Task 90
 
 // function isPalindrome(num) {
 //     let str = num.toString();
@@ -100,7 +100,7 @@
 // // Test case
 // console.log(findPalindromeNumbers([121, 123, 454, 789, 101])); // Output: [121, 454, 101]
 
-// Task 6
+// Task 91
 
 // function allElementsEqual(arr) {
 //     return arr.every(val => val === arr[0]);
@@ -110,7 +110,7 @@
 // console.log(allElementsEqual([1, 1, 1, 1])); // Output: true
 // console.log(allElementsEqual([1, 2, 1, 1])); // Output: false
 
-// Task 7
+// Task 93
 
 // function isUniqueSet(arr) {
 //     let seen = new Set();
@@ -127,7 +127,7 @@
 // console.log(isUniqueSet([1, 2, 3, 4])); // Output: true
 // console.log(isUniqueSet([1, 2, 3, 3])); // Output: false
 
-// Task 8
+// Task 85
 
 // function sqrtElements(arr) {
 //     arr.forEach(element => {
@@ -138,7 +138,7 @@
 //  // Test case
 //  console.log(sqrtElements([1, 4, 9, 16, 25])); // Output: [1, 2, 3, 4, 5]
 
-// Task 9
+// Task 84
 
 // function indexOfMax(arr) {
 //     if (arr.length === 0) return -1;
@@ -149,7 +149,7 @@
 //  // Test case
 //  console.log(indexOfMax([1, 3, 7, 1, 2, 5, 7])); // Output: 2
 
-// Task 10
+// Task 81
 
 // function uniqueWords(s) {
 //     let words = s.split(' ').filter(word => word.length > 0);
@@ -172,11 +172,11 @@
 // console.log(uniqueWords("this is a test this is only a test")); // Output: ["only"]
 // console.log(uniqueWords("hello world hello")); // Output: ["world"]
 
-// Task 11
+// Task 83
 
 // function swapFirstLast(s) {
 //     return s.split(' ').map(word => {
-//         if (word.length <= 1) return word; // Birta harfli so'zlarni o'zgartirmaymiz
+//         if (word.length <= 1) return word; 
 //         const firstChar = word[0];
 //         const lastChar = word[word.length - 1];
 //         const middle = word.slice(1, -1);
